@@ -18,30 +18,30 @@ The parameters will be updated every 40 epochs to generate a DRep score, which w
 
 ### Parameters
 * Delegated voting power
-The ADA delegated to an individual DRep divided by the total ADA delegated to DReps during an Epoch.
+  The ADA delegated to an individual DRep divided by the total ADA delegated to DReps during an Epoch.
 
 * Number of voted and accepted Governance Actions
-The number of successfully approved Governance Actions
+  The number of successfully approved Governance Actions
  
 * How many proposed and accepted Governance through DReps
-Total number of Governance Actions approved by the whole of the DReps
+  Total number of Governance Actions approved by the whole of the DReps
 
 * Participation in governance action through votes
-Number of Governance Actions voted by a DRep divided by the number of votes during an Epoch.  
+  Number of Governance Actions voted by a DRep divided by the number of votes during an Epoch.  
 
 * Number of vetos for yes-voted governance actions
-Number of vetoed Governance Actions by the CC of an individual DRep
+  Number of vetoed Governance Actions by the CC of an individual DRep
 
 * Inter-branch decentralization (between branches: DRep/SPO/CC)
-A scale from 0 to 1. A person who is only a DRep gets 1; if a person is also a CC member, 0.3 points are subtracted from the number. If a person is an SPO, 0.5 points are subtracted. A DRep who is a CC member plus an SPO gets subtracted 0.8 points.
+  A scale from 0 to 1. A person who is only a DRep gets 1; if a person is also a CC member, 0.3 points are subtracted from the number. If a person is an SPO, 0.5 points are subtracted. A DRep who is a CC member plus an SPO gets subtracted 0.8 points.
 
 * DRep scoring point system for other DReps (Positive votes and negative votes)
-After voting, the DRep will be shown the rationales of four other DReps who voted in accordance with them. The DRep will qualitatively score the four rationales, dividing a total of 1.0 points between the randomly presented options. Identity is not attributed to the four rationales presented.
+  After voting, the DRep will be shown the rationales of four other DReps who voted in accordance with them. The DRep will qualitatively score the four rationales, dividing a total of 1.0 points between the randomly presented options. Identity is not attributed to the four rationales presented.
 
 * Ada delegators are unstaked from a DRep after 3 years of wallet inactivity (no transactions)
 
 * Governance action score based on yes and no votes from DReps and an independent governance action merit score. (time period)
-The parameter is a summation of ratios; a perfect score would be a 100% distribution of the epoch’s rewards. Any different score in one or more parameters will result in a reduction of rewards based on the percentage achieved. 
+  The parameter is a summation of ratios; a perfect score would be a 100% distribution of the epoch’s rewards. Any different score in one or more parameters will result in a reduction of rewards based on the percentage achieved. 
 
 ## Rationale: how does this CIP achieve its goals?
 
