@@ -17,7 +17,7 @@ Our objective is to capture both objective metrics and subjective qualities that
 The parameters will be updated every 40 epochs to generate a DRep score, which will then be used to calculate the rewards for DReps registered on-chain. More or fewer parameters could be better suited to scoring DReps; the ones presented are proposals. 
 
 ### Parameters
-*Delegated voting power
+* Delegated voting power
 The ADA delegated to an individual DRep divided by the total ADA delegated to DReps during an Epoch. 
 *Number of voted and accepted Governance Actions
 The number of successfully approved Governance Actions 
