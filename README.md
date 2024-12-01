@@ -1,7 +1,7 @@
-#CIP-139 DRep Incentivization Framework
+# CIP-139 DRep Incentivization Framework
 
 
-##Abstract
+## Abstract
 
 This CIP addresses the current challenge of incentivizing Delegated Representatives (DReps) to participate and vote in an informed and representative manner. At present, the system relies heavily on the altruism of DReps, risking a concentration of influence in the hands of smaller groups at the expense of broader community involvement. To mitigate this, the CIP proposes a performance-based reward mechanism that uses multiple parameters to evaluate the contributions of DReps. 
 
