@@ -1,4 +1,6 @@
 **CIP-139 DRep Incentivization Framework**
+
+
 **Abstract**
 
 This CIP addresses the current challenge of incentivizing Delegated Representatives (DReps) to participate and vote in an informed and representative manner. At present, the system relies heavily on the altruism of DReps, risking a concentration of influence in the hands of smaller groups at the expense of broader community involvement. To mitigate this, the CIP proposes a performance-based reward mechanism that uses multiple parameters to evaluate the contributions of DReps. 
@@ -39,7 +41,8 @@ Rationale: how does this CIP achieve its goals?
 This CIP introduces a framework to mitigate the reliance on altruism among DReps (Delegated Representatives) by incentivizing informed, community-oriented voting behaviors. The mechanism ensures broader representation within the voting process by encouraging participation from diverse stakeholders across the Cardano community. By aligning voting incentives with the collective interests of the ecosystem, this CIP reduces the risk of centralized influence or self-serving voting patterns. 
 
 As a result, the proposal promotes a more balanced decision-making process that reflects the diverse perspectives and needs of the Cardano community while maintaining the integrity and decentralization principles foundational to the ecosystem.
-Implementation Plan
+
+**Implementation Plan**
 The proposed implementation plan for this CIP emphasizes an off-chain approach for data collection, processing, and execution of the incentive mechanism, ensuring efficiency and flexibility. All necessary calculations, such as participation metrics and reward distribution formulas, will be handled off-chain to minimize on-chain computational costs and complexity. 
 
 Once the final reward numbers for each Delegated Representative (DRep) are determined, only this output data will be submitted to the blockchain. This approach leverages the strengths of off-chain systems for scalability and adaptability while maintaining transparency and immutability for critical outputs on-chain, ensuring alignment with the principles of the Cardano ecosystem.
@@ -61,7 +64,7 @@ During the testing period, we will evaluate the mechanism by taking a snapshot o
 
 This will generate a transparent, immutable list of all DReps along with their respective scores (reward numbers) alongside relevant parameters. The testing period is planned to last for one year, corresponding to 73 epochs, to ensure sufficient data and feedback for refining the mechanism and validating its effectiveness before full implementation.
 This testing process will undergo thorough revision and refinement throughout the year, guided by continuous feedback from the Cardano Community. Every aspect of the mechanism will be carefully analyzed to identify areas for improvement, ensuring that the system aligns with community expectations and remains effective in achieving its intended goals. By fostering open communication and incorporating constructive input, we aim to create a robust, transparent, and equitable system that reflects the diverse voices and needs of the ecosystem.
-Hard-fork
+**Hard-fork**
 The testing period, once concluded, will need a hard-fork combinator event. The protocol will need to change to add automatic DRep rewards distribution automatically. This will avoid the need to have humans sign a transaction that distributes rewards.  
 Acknowledgments
 I would like to thank those who contributed to the DRep Incentives Program.
